@@ -190,5 +190,3 @@ while (iterations++ < totalIterations) {
 }
 
 console.log(`Part ${part} answer: ${grid.report()} infections performed.`);
-
-// not 5117
