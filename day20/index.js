@@ -7,7 +7,7 @@ class Particle {
     constructor({data, index}) {
         let [position, velocity, acceleration] = data.split(', ');
 
-        this.id = index + 1;
+        this.id = index;
 
         this.position = position.split('<')[1].split(',').map(number => parseInt(number, 10));
         this.velocity = velocity.split('<')[1].split(',').map(number => parseInt(number, 10));
